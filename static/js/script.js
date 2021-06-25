@@ -56,12 +56,19 @@ $(document).ready(function () {
       }
 
       $(`.card-${i}`).click(function () {
-        $(this).toggleClass('flip');
+        $(this).toggleClass("flip");
         $(".glitter").sparkle({
-          color: ["#2eafea","#e56604"],
-          speed: 0.4
+          color: ["#2eafea", "#e56604"],
+          speed: 0.4,
         });
-    });
+      });
     }
+
+    setTimeout(function () {
+      $(".card-0").addClass("flip");
+      setTimeout(function () {
+        $(".card-0").removeClass("flip");
+      }, 1000);
+    }, 2000);
   });
 });

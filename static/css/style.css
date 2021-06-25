@@ -113,6 +113,7 @@ h2 {
   border-radius: .75rem;
   background-color: #fffbfe;
   position: relative;
+  top: -1.875em;
 }
 
 .jumbotron p {
@@ -170,7 +171,9 @@ section {
   scroll-snap-align: start;
 }
 
-.one, .two, .three {
+.one,
+.two,
+.three {
   color: #fff;
 }
 
@@ -186,10 +189,10 @@ section {
   background-color: darkorchid;
 }
 
-/* .flip-card-row {
-  scroll-snap-type: y mandatory;
-  overflow-y: scroll;
-} */
+.flip-card-row {
+  position: relative;
+  top: 1.5rem;
+}
 
 .flip-card-outer {
   width: 100vw;
@@ -356,7 +359,227 @@ section {
   font-size: 1.125rem;
 }
 
-.gh-pride-img {
-  padding-top: .75rem;
-  padding-bottom: .75rem;
+.gh-pride-contact-img {
+  padding-top: 1.5rem;
+  padding-bottom: 1.5rem;
+}
+
+@media (min-width: 768px) {
+  body {
+    position: relative;
+  }
+
+  .rolling-pride {
+    max-width: unset;
+  }
+
+  .container-flipcards {
+    max-width: unset;
+    overflow-y: unset;
+    scroll-snap-type: unset;
+    height: unset;
+    padding: 1em;
+    position: relative;
+    top: unset;
+  }
+
+  .flip-card-outer {
+    top: 3.75em;
+    max-width: 15.5em;
+    height: unset;
+    position: relative;
+  }
+
+  .flip-card-wrapper {
+    height: 30vh;
+    width: 100%;
+    margin-bottom: 2em;
+    top: 1em;
+  }
+
+  .flip-card-container {
+    width: 100%;
+    height: 30vh;
+  }
+
+  .nav-link {
+    width: 7em;
+    text-align: center;
+  }
+
+  .nav-link.active {
+    background-color: #fffbfe;
+    color: #733a9b;
+    font-weight: 600;
+  }
+
+  .contact-body .nav-link.active {
+    background-color: #e8f5fc;
+}
+
+  .navbar-expand-md .navbar-collapse {
+    justify-content: flex-end;
+    line-height: 3.75em;
+    position: relative;
+    left: 1em;
+  }
+
+  .flip-card-back {
+    overflow-y: hidden;
+    box-shadow: 0 0 20px 5px rgba(0, 0, 0, 0.425);
+  }
+
+  .pride-doughnut-icon {
+    width: 2.75em;
+  }
+
+  .flip-over-icon {
+    width: 3.25em;
+  }
+
+  .flip-card-back p {
+    font-size: .83rem;
+    line-height: 1.15rem;
+    margin-top: 1rem;
+  }
+
+  .name-wrapper {
+    height: 4em;
+    width: 100%;
+    background-color: #733a9b;
+    position: absolute;
+    bottom: 0;
+    border-bottom-left-radius: .5em;
+    border-bottom-right-radius: .5em;
+  }
+
+  .name-wrapper-heading {
+    padding-right: 6em;
+  }
+
+  .card-1 .flip-card-front {
+    overflow-y: hidden;
+  }
+
+  .card-1 .flip-card-front img:not(.icon) {
+    position: relative;
+    top: -4rem;
+  }
+
+  .flip-card-outer:nth-of-type(10),
+  .flip-card-outer:nth-of-type(11),
+  .flip-card-outer:nth-of-type(12) {
+    padding-bottom: 2rem;
+  }
+
+  .contact-container {
+    align-items: center;
+  }
+
+  .list-group {
+    max-width: 37.5rem;
+    margin-left: auto;
+    margin-right: auto;
+    max-height: 53.5em;
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+    /* box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%); */
+  }
+
+  .gh-pride-img {
+    width: 7rem;
+  }
+
+  .gh-pride-contact-img {
+    width: 8rem;
+    padding-top: 1.5rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .contact-logo {
+    background-color: #fffbfe;
+    border-top-right-radius: 1rem;
+    border-top-left-radius: 1rem;
+    border: .05rem solid #733a9b;
+    border-bottom: none;
+  }
+
+  .contact-body {
+    background-color: #e8f5fc;
+  }
+
+  .jumbotron {
+    width: 75%;
+    padding: 2.5rem 3.4rem 3rem;
+    top: -2em;
+  }
+
+  .btn-cta {
+    width: 15em;
+  }
+
+  .jumbotron h1 {
+    font-size: 2.75rem;
+  }
+
+  h2 {
+    font-size: 2.25rem;
+  }
+
+  .hero-text-cta p {
+    font-size: 1.15rem;
+  }
+
+  .list-group-item {
+    height: 6rem;
+  }
+
+  .fade-in {
+    opacity: 0;
+    animation: fade-in 400ms 1 ease-in-out forwards;
+    font-size: 1.125rem;
+  }
+
+  .contact-heading {
+    font-size: 1.425rem;
+  }
+
+  .list-group-item:first-of-type .fade-in {
+    animation-delay: 600ms;
+  }
+
+  .list-group-item:nth-of-type(2) .fade-in {
+    animation-delay: 1000ms;
+  }
+
+  .list-group-item:nth-of-type(3) .fade-in {
+    animation-delay: 1400ms;
+  }
+
+  .list-group-item:nth-of-type(4) .fade-in {
+    animation-delay: 1800ms;
+  }
+
+  .list-group-item:nth-of-type(5) .fade-in {
+    animation-delay: 2200ms;
+  }
+
+  .list-group-item:nth-of-type(6) .fade-in {
+    animation-delay: 3000ms;
+  }
+
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+    }
+
+    50% {
+      opacity: .5;
+    }
+
+    100% {
+      opacity: 1;
+    }
+  }
+
 }
