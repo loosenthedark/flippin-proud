@@ -1,6 +1,6 @@
 [
   {
-    "img_url": "static/images/panti.jpg",
+    "img_url": "static/images/panti.jpeg",
     "name": "Panti Bliss",
     "nationality": "Irish",
     "bio": "Drag queen and gay rights activist also known as Rory O'Neill. An outspoken performer living with HIV, Panti's 2014 speech at Dublin's Abbey Theatre became a watershed moment in the marriage equality movement that led to constitutional reform the following year.",
@@ -8,7 +8,7 @@
     "bio_src": "https://en.wikipedia.org/wiki/Panti"
   },
   {
-    "img_url": "static/images/conway.jpg",
+    "img_url": "static/images/conway.jpeg",
     "name": "Lynn Conway",
     "nationality": "American",
     "bio": "One of the inventors of the VSLI microchip, which sparked a rush of tech startups throughout the 1980s and '90s. Conway began her gender transition in 1968, and was fired from IBM as a result. In her retirement, she’s become a transgender activist.",
@@ -16,7 +16,7 @@
     "bio_src": "https://en.wikipedia.org/wiki/Lynn_Conway"
   },
   {
-    "img_url": "static/images/cook.jpg",
+    "img_url": "static/images/cook.jpeg",
     "name": "Tim Cook",
     "nationality": "American",
     "bio": "Business executive and philanthropist who has been CEO of Apple since 2011. After coming out as gay in a 2014 editorial for <em>Bloomberg Business</em>, Cook became the first and only openly gay CEO on the <em>Fortune</em> 500 list.",
@@ -24,7 +24,7 @@
     "bio_src": "https://en.wikipedia.org/wiki/Tim_Cook"
   },
   {
-    "img_url": "static/images/donoghue.jpg",
+    "img_url": "static/images/donoghue.jpeg",
     "name": "Emma Donoghue",
     "nationality": "Irish",
     "bio": "Author, playwright and screenwriter best known for the novel <em>Room</em>, which inspired the acclaimed 2015 film of the same name and earned Donoghue an Oscar nomination for Best Adapted Screenplay. She lives in Canada with her wife and two children.",
@@ -32,7 +32,7 @@
     "bio_src": "https://en.wikipedia.org/wiki/Emma_Donoghue"
   },
   {
-    "img_url": "static/images/holiday.jpg",
+    "img_url": "static/images/holiday.jpeg",
     "name": "Billie Holiday",
     "nationality": "American",
     "bio": "Influential singer and jazz musician whose turbulent career spanned three decades. Although her premature death in 1959 was brought on by health problems linked to substance abuse, Holiday is today regarded as a bi icon, and may have had a relationship with actress Tallulah Bankhead. She has received four posthumous Grammy awards.",
@@ -40,7 +40,7 @@
     "bio_src": "https://bi.org/en/famous/billie-holiday"
   },
   {
-    "img_url": "static/images/mckellen.jpg",
+    "img_url": "static/images/mckellen.jpeg",
     "name": "Ian McKellen",
     "nationality": "English",
     "bio": "Renowned stage and screen actor whose prolific career began nearly sixty years ago. McKellen is the recipient of a Tony Award and two Oscar nominations, and was knighted in 1991 for services to the performing arts. Having gone public about his sexuality in 1988, Sir Ian continues to champion LGBTQ+ social movements worldwide.",
@@ -48,7 +48,7 @@
     "bio_src": "https://en.wikipedia.org/wiki/Ian_McKellen"
   },
   {
-    "img_url": "static/images/norris.jpg",
+    "img_url": "static/images/norris.jpeg",
     "name": "David Norris",
     "nationality": "Irish",
     "bio": "Independent senator and civil rights activist whose fourteen-year campaign to overthrow Ireland's anti-homosexuality law finally brought about reform in 1988. Norris became the first openly gay Irish person to be elected to public office, and is also a prominent literary scholar.",
@@ -56,7 +56,7 @@
     "bio_src": "https://en.wikipedia.org/wiki/David_Norris_(politician)"
   },
   {
-    "img_url": "static/images/page.jpg",
+    "img_url": "static/images/page.jpeg",
     "name": "Elliot Page",
     "nationality": "Canadian",
     "bio": "Since coming out as gay in 2014, Oscar-nominated actor Page has become known as one of Hollywood's most outspoken LGBTQ+ stars. His subsequent announcement, made via Twitter late last year, that he is transgender included a pledge to advocate for better trans healthcare.",
@@ -64,7 +64,7 @@
     "bio_src": "https://en.wikipedia.org/wiki/Elliot_Page"
   },
   {
-    "img_url": "static/images/rapinoe.jpg",
+    "img_url": "static/images/rapinoe.jpeg",
     "name": "Megan Rapinoe",
     "nationality": "American",
     "bio": "Arguably the most famous footballer in the women's game, in the past decade alone Rapinoe has won Olympic Gold and the World Cup (twice) with the US national team. In 2019 she was awarded both the Golden Boot and Golden Ball at that summer's World Cup, and was later crowned <em>Sports Illustrated</em>'s Sportsperson of The Year. With over 2 million Instagram followers, Rapinoe is a vocal advocate for numerous LGBTQ+ organisations.",
@@ -72,7 +72,7 @@
     "bio_src": "https://en.wikipedia.org/wiki/Megan_Rapinoe"
   },
   {
-    "img_url": "static/images/thomas.jpg",
+    "img_url": "static/images/thomas.jpeg",
     "name": "Gareth Thomas",
     "nationality": "Welsh",
     "bio": "Following an illustrious playing career that saw him earn 100 caps for Wales as well as three appearances for the British & Irish Lions, Thomas' public confirmation of his sexuality in 2009 made him the first openly gay professional rugby player. A decade later, Thomas announced that he is HIV positive, and has since vowed to break the stigma surrounding the illness.",
@@ -80,7 +80,7 @@
     "bio_src": "https://en.wikipedia.org/wiki/Gareth_Thomas_(rugby)"
   },
   {
-    "img_url": "static/images/turing.jpg",
+    "img_url": "static/images/turing.jpeg",
     "name": "Alan Turing",
     "nationality": "English",
     "bio": "Hailed as the father of theoretical computer science and AI, Turing played a crucial role during WWII in devising techniques for speeding the breaking of German military ciphers. Rather than being declared a war hero, he was prosecuted in 1952 for homosexual activity, then a criminal offence in The UK. Turing died soon afterwards from cyanide poisoning, with an inquest later determining his death as a suicide.",
@@ -88,7 +88,7 @@
     "bio_src": "https://en.wikipedia.org/wiki/Alan_Turing"
   },
   {
-    "img_url": "static/images/wilde.jpg",
+    "img_url": "static/images/wilde.jpeg",
     "name": "Oscar Wilde",
     "nationality": "Irish",
     "bio": "Playwright, novelist and poet whose flamboyant dress, cutting wit and eccentric lifestyle often put him at odds with the social norms of his time. Convicted in 1895 under the UK's \"gross indecency\" laws and sentenced to two years' hard labour, Wilde fled Victorian London and died destitute in Paris not long after his release.",

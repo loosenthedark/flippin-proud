@@ -155,10 +155,41 @@ h2 {
 
 /* Flipcard UI */
 
-.flip-card-row {
+.container-flipcards {
+  height: calc(100vh - 3.75em);
+  top: 3.75em;
+  position: relative;
   scroll-snap-type: y mandatory;
   overflow-y: scroll;
 }
+
+section {
+  height: calc(100vh - 3.75em);
+  top: 3.75em;
+  position: relative;
+  scroll-snap-align: start;
+}
+
+.one, .two, .three {
+  color: #fff;
+}
+
+.one {
+  background-color: cyan;
+}
+
+.two {
+  background-color: forestgreen;
+}
+
+.three {
+  background-color: darkorchid;
+}
+
+/* .flip-card-row {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+} */
 
 .flip-card-outer {
   width: 100vw;
@@ -171,10 +202,11 @@ h2 {
 
 .flip-card-wrapper {
   position: relative;
-  top: 3em;
 }
 
 .flip-card-container {
+  position: relative;
+  top: -1.375em;
   width: 330px;
   height: 440px;
   /*   border: 1px solid #ccc; */
