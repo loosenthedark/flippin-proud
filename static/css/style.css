@@ -1,0 +1,330 @@
+/* Global styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* overflow-x: hidden; */
+  scroll-behavior: smooth;
+  /* font-size: 62.5%; */
+}
+
+body {
+  font-family: Roboto, sans-serif;
+  /* width: 100vw;
+  height: 100vh; */
+  /* display: flex; */
+  overflow-x: hidden;
+  color: #343330;
+  background-color: #fffbfe;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: Montserrat, sans-serif;
+}
+
+h1 {
+  font-size: 2.4rem;
+  font-weight: 700;
+}
+
+h2 {
+  font-size: 1.8rem;
+  font-weight: 400;
+}
+
+.navbar {
+  position: fixed;
+  width: 100%;
+  z-index: 999;
+  background-color: #733A9B !important;
+}
+
+.navbar-toggler {
+  border: 1px solid #f0f0f0;
+  width: 3.625rem;
+  height: 2.5rem;
+  overflow: hidden;
+}
+
+.nav-toggler-icon {
+  display: block;
+  width: 3.625rem;
+  height: 2.5rem;
+  text-align: center;
+  transition: .2s ease-in-out;
+  font-size: 1.5rem;
+  line-height: 2.25rem;
+}
+
+.nav-toggler-icon:nth-of-type(2) {
+  background: url(../images/icons/pride-doughnut-icon.png);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.nav-toggler-icon.active {
+  transform: translateY(-100%);
+}
+
+.nav-link.active {
+  background-color: #f0f0f0;
+  color: #733a9b;
+  cursor: default;
+}
+
+.nav-link:not(.active):hover {
+  background-color: #f0f0f0;
+  opacity: 0.85;
+  color: #733a9b;
+}
+
+.fas.fa-bars {
+  color: #f0f0f0;
+  font-weight: 600;
+  position: relative;
+  top: .1rem;
+}
+
+.no-border {
+  border: none;
+}
+
+.navLinks a {
+  color: #F0f0f0;
+  font-size: 100%;
+}
+
+.logo-styling img {
+  height: 60px;
+  position: relative;
+  left: -.5em;
+}
+
+/* jumbotron */
+
+.jumbotron {
+  border-radius: .75rem;
+  background-color: #fffbfe;
+  position: relative;
+}
+
+.jumbotron p {
+  font-size: .95rem;
+  font-weight: 300;
+}
+
+.btn {
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%);
+  min-width: 9rem;
+  min-height: 3rem;
+  color: #fff;
+  text-transform: uppercase;
+}
+
+.btn-cta {
+  padding-top: 1.225rem !important;
+  padding-bottom: 1.225rem !important;
+  font-size: .95rem;
+  line-height: .95rem;
+  width: 17rem;
+  border-radius: 50px;
+  background-color: #733A9B;
+  border: 1px solid #733A9B;
+}
+
+.btn-cta:hover,
+.btn-cta:focus {
+  background-color: #603082;
+  border-color: #45225d;
+  color: #fff;
+}
+
+.btn-cta:active {
+  background-color: #fffbfe;
+  border: 2px solid #733a9b;
+  color: #733a9b;
+  font-weight: 500;
+}
+
+/* Flipcard UI */
+
+.flip-card-row {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+}
+
+.flip-card-outer {
+  width: 100vw;
+  height: calc(100vh - 3.75em);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+.flip-card-wrapper {
+  position: relative;
+  top: 3em;
+}
+
+.flip-card-container {
+  width: 330px;
+  height: 440px;
+  /*   border: 1px solid #ccc; */
+  perspective: 1000px;
+  cursor: pointer;
+}
+
+.flip-card-container.flip .flip-card {
+  transform: rotateY(180deg);
+}
+
+.flip-card {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+}
+
+.flip-card-front,
+.flip-card-back {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+  /*   Below is optional */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 0.5rem;
+  box-shadow: 10px 14px 38px 1px rgba(0, 0, 0, 0.75);
+}
+
+.flip-card-front {
+  background-color: #333;
+  color: #fff;
+}
+
+.flip-card-back {
+  background-color: #1982C4;
+  color: #fff;
+  transform: rotateY(180deg);
+}
+
+.flip-card-front img:not(.icon) {
+  width: 100%;
+  height: 100%;
+  border-radius: 0.5rem;
+  position: relative;
+}
+
+.flip-over-icon,
+.pride-doughnut-icon {
+  position: absolute;
+}
+
+.pride-doughnut-icon-back {
+  position: relative;
+}
+
+.flip-over-icon {
+  right: 3px;
+  bottom: -5px;
+}
+
+.pride-doughnut-icon {
+  left: 5px;
+  top: 5px;
+}
+
+.flip-card-back p {
+  margin: 1rem;
+  margin-top: .5rem;
+  font-size: 1.1rem;
+  line-height: 1.4rem;
+}
+
+.bg-green {
+  background-color: #8ac926;
+}
+
+.box-shadow-green {
+  box-shadow: rgba(138, 201, 38, 0.85) 0 0 20px 5px;
+}
+
+.bg-blue {
+  background-color: #1982c4;
+}
+
+.box-shadow-blue {
+  box-shadow: rgba(25, 130, 196, 0.85) 0 0 20px 5px;
+}
+
+.bg-purple {
+  background-color: #6a4c93;
+}
+
+.box-shadow-purple {
+  box-shadow: rgba(106, 76, 147, 0.95) 0 0 20px 5px;
+}
+
+.bg-yellow {
+  background-color: #ffca3a;
+}
+
+.bg-snow.list-group-item {
+  background-color: #fffbfe;
+  color: #343330;
+}
+
+.bg-jet {
+  background-color: #343330;
+}
+
+.box-shadow-yellow {
+  box-shadow: rgba(255, 202, 58, 0.65) 0 0 20px 5px;
+}
+
+/* Contact page */
+
+.contact-container {
+  min-height: calc(100vh - 3.75em);
+  position: relative;
+  top: 3.75em;
+}
+
+.contact-list {
+  width: 100%;
+}
+
+.list-group-item {
+  color: #fffbfe;
+  height: 6.75rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.list-group-item:last-of-type {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.contact-heading {
+  text-transform: uppercase;
+  font-size: 1.125rem;
+}
+
+.gh-pride-img {
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+}

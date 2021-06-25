@@ -35,13 +35,14 @@
 
 <body>
 
-  <nav class="navbar navbar-expand-md navLinks bg-light px-2 pl-md-4 py-0">
-    <a class="navbar-brand logoStyling logoGlitter py-0" href="index.html"><img src="static/images/logo-final.png"
+  <nav class="navbar navbar-expand-md navLinks bg-light px-3 pl-md-4 py-0">
+    <a class="navbar-brand logo-styling logo-glitter py-0" href="index.html"><img src="static/images/logo-final.png"
         alt="logo"></a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-      aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-      <!-- <span class="fas-fa-bars"></span> -->
-      <i class="fas fa-bars"></i>
+    <button class="navbar-toggler collapsed p-0" id="nav-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+    aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="nav-toggler-icon"><i class="fas fa-bars" aria-hidden="true"></i></span>
+      <span class="nav-toggler-icon"></span>
+      <span class="sr-only">Toggle nav</span>
     </button>
     <div class="collapse navbar-collapse mt-2 mt-md-0 mb-3 mb-md-0" id="navbarNavAltMarkup">
       <div class="navbar-nav">
@@ -53,38 +54,23 @@
     </div>
   </nav>
 
-  <div class="container-fluid p-0">
-    <div class="rolling-pride row m-0">
-      <div class="jumbotron my-auto">
-        <h1 class="hero-text-heading text-center">We're Flippin' Proud<br>How about you?</h1>
-        <div class="hero-text-image text-center">
-          <img src="static/images/rainbow-flag-icon.jpeg" alt="Rainbow flag colours" />
-        </div>
-        <div class="text-icon-links text-center">
-          <a href="https://www.facebook.com/pridesite" target="_blank" rel="noopener"
-            aria-label="Pride Facebook page (link opens in a new tab)"><i
-              class="fab fa-facebook fa-2x hvr-pulse-grow mr-4"></i></a>
-          <a href="https://www.instagram.com/pride/?hl=en" target="_blank" rel="noopener"
-            aria-label="Pride Instagram page (link opens in a new tab)"><i
-              class="fab fa-instagram fa-2x hvr-pulse-grow mr-4"></i></a>
-          <a href="https://twitter.com/pride?lang=en" target="_blank" rel="noopener"
-            aria-label="Pride Twitter page (link opens in a new tab)"><i
-              class="fab fa-twitter fa-2x hvr-pulse-grow"></i></a>
-        </div>
-        <div class="hero-text-cta text-center py-3">
-          <p>
-            <b>Let's celebrate those people who have led the way and shown the world that anyone should be proud to be a
-              part of the LGBTQ+ community</b>
-          </p>
-          <a href="flipcards.html" class="btn btn-cta hvr-grow-shadow">Get Flippin'</a>
-        </div>
+  <div class="container d-flex flex-column align-items-center justify-content-center rolling-pride m-0">
+    <div class="jumbotron my-auto">
+      <h1 class="hero-text-heading text-center">We're Flippin' Proud!</h1>
+      <h2 class="text-center">How about you?</h2>
+      <div class="contact-logo text-center"><img src='static/images/icons/gh-logo-pride.png' width='80'
+          class="gh-pride-img" alt="Pride GitHub icon"></div>
+      <div class="hero-text-cta text-center py-2">
+        <p>Let's celebrate the trailblazers and icons who've shown that anyone can and should be proud to be a
+          part of the LGBTQ+ community</p>
+        <a href="flipcards.html" class="btn btn-cta hvr-grow-shadow">Get Flippin'!</a>
       </div>
     </div>
   </div>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>
-  <!-- <script src="static/js/script.js"></script> -->
+  <script src="static/js/script.js"></script>
   <script src="static/js/jquery-canvas-sparkles.js"></script>
   <script>
     $(document).ready(function () {
