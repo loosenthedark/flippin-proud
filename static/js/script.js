@@ -27,7 +27,7 @@ $(document).ready(function () {
 
       let flipCardBack = "<div class='flip-card-back'>";
       flipCardBack +=
-        "<img src='static/images/icons/pride-doughnut-icon.png' width='80' class='icon pride-doughnut-icon pride-doughnut-icon-back mb-2 mb-xl-0 d-md-none d-xl-block' alt='Pride doughnut icon'>";
+        "<img src='static/images/icons/pride-doughnut-icon.png' width='80' class='icon pride-doughnut-icon pride-doughnut-icon-back mb-2 mb-xl-0 d-md-none' alt='Pride doughnut icon'>";
       flipCardBack += `<h3 class="mb-0 d-md-none">${data[i].name}</h3>`;
       flipCardBack += `<p>${data[i].bio}</p>`;
       flipCardBack += "</div>";
@@ -56,6 +56,7 @@ $(document).ready(function () {
       }
 
       $(`.card-${i}`).click(function () {
+        $('.flip-card-container').removeClass("flip");
         $(this).toggleClass("flip");
         $(".glitter").sparkle({
           color: ["#2eafea", "#e56604"],
