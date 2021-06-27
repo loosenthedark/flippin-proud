@@ -79,10 +79,14 @@ h2 {
   cursor: default;
 }
 
-.nav-link:not(.active):hover {
+.nav-link:not(.active):hover,
+.nav-link:not(.active):focus {
   background-color: #f0f0f0;
-  opacity: 0.85;
   color: #733a9b;
+}
+
+.nav-link:not(.active):hover {
+  opacity: 0.85;
 }
 
 .fas.fa-bars {
@@ -235,6 +239,7 @@ section {
   width: 100%;
   height: 100%;
   backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
   /*   Below is optional */
   display: flex;
   flex-direction: column;
@@ -723,7 +728,7 @@ section {
 @media (min-width: 992px) {
 
   .jumbotron {
-    top: unset;
+    top: 1.5em;
     max-width: 42rem;
     padding: 2.25rem 3rem;
   }
