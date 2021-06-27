@@ -482,6 +482,13 @@ section {
     font-weight: 600;
   }
 
+  .navbar.navbar-home .nav-link:not(.active):hover,
+  .navbar.navbar-home .nav-link:not(.active):focus {
+    background-color: #fff;
+    color: #733a9b;
+    font-weight: 600;
+}
+
   .nav-link.active {
     background-color: #fffbfe;
     color: #733a9b;
@@ -722,7 +729,7 @@ section {
   }
 
   .navbar.navbar-home .navbar-brand {
-    padding-right: calc(100vw - 27em);
+    padding-right: 6em;
   }
 
   .container-flipcards {
@@ -768,12 +775,22 @@ section {
     width: 16em;
   }
 
+  .navbar-home.navbar .logo-styling {
+    width: unset;
+    padding-right: calc(100vw - 37em);
+  }
+
   .logo-styling img {
     height: 4.5em;
     width: 16em;
     position: absolute;
     left: -1.25em;
     top: -.125em;
+  }
+
+  .navbar.navbar-home .logo-styling img {
+    position: relative;
+    left: .25em;
   }
 
   .list-group {

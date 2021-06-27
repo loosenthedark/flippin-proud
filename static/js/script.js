@@ -56,7 +56,7 @@ $(document).ready(function () {
       }
 
       $(`.card-${i}`).click(function () {
-        $('.flip-card-container').removeClass("flip");
+        $('.flip-card-container').not(this).removeClass("flip");
         $(this).toggleClass("flip");
         $(".glitter").sparkle({
           color: ["#2eafea", "#e56604"],
