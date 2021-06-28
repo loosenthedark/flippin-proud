@@ -35,13 +35,14 @@
 
 <body id="error-body">
 
-  <nav class="navbar navbar-expand-md navbar-home navLinks bg-light px-3 pl-md-4 py-0">
-    <a class="navbar-brand logo-styling logo-glitter py-0 mr-md-0" href="index.html"><img
+  <nav class="navbar navbar-expand-md navbar-home navLinks bg-light px-3 pl-md-4 py-0" id="navbar-error">
+    <a class="navbar-brand logo-styling logo-glitter py-0 mr-md-0" href="index.html" aria-label="link to Flippin' Proud home page"><img
         src="static/images/logo-final.png" alt="logo"></a>
   </nav>
   <div id="title" class="flex-column px-3">
-    <h1 class="hero-text-heading text-center mb-1">Your Pride level is over 404...</h1>
-    <h2 class="text-center">That's off the charts!</h2>
+    <h1 class="hero-text-heading text-center mb-2">Your Pride level is over 404...</h1>
+    <h2 class="text-center mb-3 mb-lg-4">That's off the charts!</h2>
+    <a href="index.html" id="error-return" class="btn btn-cta px-md-5" aria-label="link to Flippin' Proud home page">Return Home</a>
   </div>
 
   <div id="rainbow-box">
@@ -83,8 +84,6 @@
     </ul>
   </div>
 
-  <!-- <a href="index.html" id="error-return">Return Home</a> -->
-  <a href="index.html" id="error-return" class="btn btn-cta">Return Home</a>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.1/umd/popper.min.js"></script>
   <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.6.0/js/bootstrap.min.js"></script>

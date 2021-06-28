@@ -726,6 +726,10 @@ section {
 
 @media (min-width: 992px) {
 
+  h2 {
+    font-size: 2rem;
+  }
+
   .jumbotron {
     top: 1.5em;
     max-width: 42rem;
