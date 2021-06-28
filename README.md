@@ -6,7 +6,7 @@
 
 <p align="center"><img src="docs/images/screenshots/device-screenshots.png" alt="device screenshots mockup" width="70%" height="auto"></p>
 
-<p align="center" style="font-weight:bold;"><a href="https://loosenthedark.github.io/flippin-proud/">Live link to deployed project</a> (hosted on GitHub Pages) | <a href="http://loosenthedark.tech/flippin-proud/">Alternative link</a> (hosted on loosenthedark.tech)</p>
+<h3 align="center"><a href="https://loosenthedark.github.io/flippin-proud/">Live link to deployed project</a> (hosted on GitHub Pages) | <a href="http://loosenthedark.tech/flippin-proud/">Alternative link</a> (hosted on loosenthedark.tech)</h3>
 
 ## What's It All About?
 
