@@ -6,25 +6,25 @@
 
 <p align="center"><img src="docs/images/screenshots/device-screenshots.png" alt="device screenshots mockup" width="70%" height="auto"></p>
 
-<h3 align="center"><a href="https://loosenthedark.github.io/flippin-proud/">Live link to deployed project</a> (hosted on GitHub Pages) | <a href="http://loosenthedark.tech/flippin-proud/">Alternative link</a> (hosted on loosenthedark.tech)</h3>
+<h4 align="center"><a href="https://loosenthedark.github.io/flippin-proud/">Live link to deployed project</a> (hosted on GitHub Pages) | <a href="http://loosenthedark.tech/flippin-proud/">Alternative link</a> (hosted on loosenthedark.tech)</h4>
 
 ## What's It All About?
 
-[**Flippin' Proud**](https://loosenthedark.github.io/flippin-proud/) is a collaborative team project initally developed and submitted as part of [Code Institute](https://codeinstitute.net/)’s [#ProudCoders June 2021 Hackathon](https://hackathon.codeinstitute.net/hackathon/8/). The application's primary function is to celebrate Pride month and its themes of diversity, visibility and community. More specifically, the programmers set out to help educate and bring people together by showcasing a selection of pioneering LGBTQ+ figures both past and present, as well as the roles they have played in furthering the cause of equality and inclusivity. The efforts and bravery of these icons has helped combat ignorance and intolerance across the globe, and laid the foundations for others to come forward and work towards a brighter future. 
+[**Flippin' Proud**](https://loosenthedark.github.io/flippin-proud/) is a collaborative team project initally developed and submitted as part of [Code Institute](https://codeinstitute.net/)’s [#ProudCoders June 2021 Hackathon](https://hackathon.codeinstitute.net/hackathon/8/). The application's primary function is to celebrate Pride month and its themes of diversity, visibility and [community](https://dublin.ie/whats-on/listings/dublin-pride-festival/). More specifically, the programmers set out to help educate and bring people together by showcasing a selection of pioneering LGBTQ+ figures both past and present, as well as the roles they have played in furthering the causes of equality and inclusivity. The efforts and bravery of these icons has helped combat ignorance and intolerance across the globe, and laid the foundations for others to come forward and work towards a brighter future. 
 
-Users can interact with flipcards of the aforementioned figures by clicking on the respective image (on the front of each flipcard) to flip the card over and view background information highlighting the importance of that individual to the LGBTQ+ community.
+Users can interact with flipcards of the aforementioned figures by clicking on the respective image (on the front of each flipcard) to flip the card over and view an information panel highlighting the importance of that individual to the LGBTQ+ community.
 
 The project has been made possible thanks to the hard work and collaboration of the following team of developers:
 
- - [John Doyle](https://github.com/Aramantos)
- - [Christine Greaney-Kelley](https://github.com/christine-gk416)
- - [Paul Harrington](https://github.com/loosenthedark)
- - [Steven Kenny](https://github.com/SteveKennyUK)
- - [Adrian Looney](https://github.com/Jammerref2015)
+ - **[John Doyle]**(https://github.com/Aramantos)
+ - **[Christine Greaney-Kelley]**(https://github.com/christine-gk416)
+ - **[Paul Harrington]**(https://github.com/loosenthedark)
+ - **[Steven Kenny]**(https://github.com/SteveKennyUK)
+ - **[Adrian Looney]**(https://github.com/Jammerref2015)
 
 ## User Experience (UX)
 
-This website adheres to the principles of User-Centred Design (UCD), which focuses on placing users at the centre of the design and development process.
+This website adheres to the principles of [User-Centred Design (UCD)](https://en.wikipedia.org/wiki/User-centered_design), which focuses on placing users at the heart of the design and development process.
 
 ### User Stories:
 
@@ -65,7 +65,7 @@ Wireframes for the project can be found [here](docs/wireframes/flippin-proud-wir
 
 ### Existing Features:
 - The site consists of three pages (as well as a custom error page), each with a full-width responsive **navigation bar** fixed to the top of the viewport:
-  - A **jumbotron** greets users on the [main landing (Home) page](https://loosenthedark.github.io/flippin-proud/), with some introductory content on the theme and purpose of the site followed by a bright **call to action button** to take the user to the main flipcard page.
+  - A **jumbotron** greets users on the [main landing (Home) page](https://loosenthedark.github.io/flippin-proud/), with some introductory content on the theme and purpose of the site followed by a bright **call to action button** to take the user to the Flipcards page.
   - The central [Flipcards page](https://loosenthedark.github.io/flippin-proud/flipcards) offers an interactive invitation to the user to learn about the important contributions made by various individuals to the LGBTQ+ community.
   - A final [Contact page](https://loosenthedark.github.io/flippin-proud/contact) features a list of relevant information and contact links for each of the site's developers.
 
@@ -73,29 +73,29 @@ Wireframes for the project can be found [here](docs/wireframes/flippin-proud-wir
 
 ### Languages:
 
-- [HTML5:](https://en.wikipedia.org/wiki/HTML5) used for structuring the site
-- [CSS3:](https://en.wikipedia.org/wiki/Cascading_Style_Sheets) used for styling the site
-- [JavaScript:](https://en.wikipedia.org/wiki/JavaScript) used for site logic and web page behaviour
+- **[HTML5:](https://en.wikipedia.org/wiki/HTML5)** used for structuring the site
+- **[CSS3:](https://en.wikipedia.org/wiki/Cascading_Style_Sheets)** used for styling the site
+- **[JavaScript:](https://en.wikipedia.org/wiki/JavaScript)** used for site logic and web page behaviour
     
 ### Frameworks, Libraries, Programmes, File Formats and Tools:
 
-- [Bootstrap v4.6.0:](https://getbootstrap.com/docs/4.6/getting-started/introduction/) used to assist with the responsiveness and layout of the website
-- [Hover.css v2.3.1:](https://ianlunn.github.io/Hover/) used to add dynamic hover effects to buttons and icons
-- [Google Fonts:](https://fonts.google.com/) used to import the Roboto and Montserrat fonts into the `style.css` stylesheet that's used throughout the project
-- [Font Awesome v5.15.3:](https://fontawesome.com/): used to add appropriate and visually appealing site icons
-- [jQuery v3.5.1:](https://jquery.com/) used to assist with manipulation of the Document Object Model (DOM) that facilitates interactivity
-- [JSON:](https://en.wikipedia.org/wiki/JSON) used to store and transport data
-- [Git:](https://git-scm.com/) used for version control by utilising the Gitpod terminal to commit frequently to Git and push all commits to GitHub
-- [GitHub:](https://github.com/) used to compile and remotely store the project's codebase following successive local commits and pull requests initiated from the command line
-- [Balsamiq:](https://balsamiq.com/) used to generate [wireframes](docs/wireframes/flippin-proud-wireframes.pdf) during the project's design phase
-- [Adobe Photoshop:](https://www.adobe.com/uk/products/photoshop.html): used to create the website's main [`.navbar-brand` logo](static/images/logo-final.png)
-- [favicon.io (favicon generator):](https://favicon.io/favicon-converter/) used to create a favicon boasting full cross-browser compatibility
-- [WebAIM (contrast checker):](https://webaim.org/resources/contrastchecker/) used to ensure site foreground and background colour contrasts meet [WCAG 2 accessibility requirements](https://webaim.org/articles/contrast/)
-- [Web Formatter:](https://webformatter.com) used to assist in optimising code readability
-- [Autoprefixer:](https://autoprefixer.github.io/) used to parse CSS and apply all necessary vendor prefixes
-- [TinyPNG:](https://tinypng.com/) used for image compression
-- [PicResize:](https://picresize.com/) used to crop and resize images
-- [Ray.so:](https://ray.so/) used to create the code block image featured in the [**Bugs** subsection](#bugs) of the **Testing** section of this Markdown file
+- **[Bootstrap v4.6.0:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)** used to assist with the responsiveness and layout of the website
+- **[Hover.css v2.3.1:](https://ianlunn.github.io/Hover/)** used to add dynamic hover effects to buttons and icons
+- **[Google Fonts:](https://fonts.google.com/)** used to import the Roboto and Montserrat fonts into the `style.css` stylesheet that's used throughout the project
+- **[Font Awesome v5.15.3:](https://fontawesome.com/)** used to add appropriate and visually appealing site icons
+- **[jQuery v3.5.1:](https://jquery.com/)** used to assist with manipulation of the Document Object Model (DOM) that facilitates interactivity
+- **[JSON:](https://en.wikipedia.org/wiki/JSON)** used to store and transport data
+- **[Git:](https://git-scm.com/)** used for version control by utilising the Gitpod terminal to commit frequently to Git and push all commits to GitHub
+- **[GitHub:](https://github.com/)** used to compile and remotely store the project's codebase following successive local commits and pull requests initiated from the command line
+- **[Balsamiq:](https://balsamiq.com/)** used to generate [wireframes](docs/wireframes/flippin-proud-wireframes.pdf) during the project's design phase
+- **[Adobe Photoshop:](https://www.adobe.com/uk/products/photoshop.html)** used to create the website's main [`.navbar-brand` logo](static/images/logo-final.png)
+- **[favicon.io (favicon generator):](https://favicon.io/favicon-converter/)** used to create a favicon boasting full cross-browser compatibility
+- **[WebAIM (contrast checker):](https://webaim.org/resources/contrastchecker/)** used to ensure site foreground and background colour contrasts meet [WCAG 2 accessibility requirements](https://webaim.org/articles/contrast/)
+- **[Web Formatter:](https://webformatter.com)** used to assist in optimising code readability
+- **[Autoprefixer:](https://autoprefixer.github.io/)** used to parse CSS and apply all necessary vendor prefixes
+- **[TinyPNG:](https://tinypng.com/)** used for image compression
+- **[PicResize:](https://picresize.com/)** used to crop and resize images
+- **[Ray.so:](https://ray.so/)** used to create the code block image featured in the [**Bugs** subsection](#bugs) of the **Testing** section of this Markdown file
 
 ## Testing
 
@@ -111,7 +111,7 @@ Wireframes for the project can be found [here](docs/wireframes/flippin-proud-wir
 
 ### <a name="bugs"></a> Bugs:
 
-- The programmers encountered a specific bug relating to [iOS](https://en.wikipedia.org/wiki/IOS) devices when viewing and interacting with the `flipcards.html` page. Rather than revealing the text on the back of each card (as intended) when flipped, the cards initially simply showed a mirror image of the photo used on the card's front. [This video](docs/video/bugs/ios-flipcard-bug.mp4) gives a realistic demonstration of the bug before it was addressed by the developers during the project's testing phase.
+- The programmers encountered a specific bug relating to [iOS](https://en.wikipedia.org/wiki/IOS) devices when viewing and interacting with the `flipcards.html` page. Rather than revealing the text on the back of each card (as intended) when flipped, the cards initially displayed a mirror image of the photo used on the card's front. [This video](docs/video/bugs/ios-flipcard-bug.mp4) gives a realistic demonstration of the bug before it was addressed by the developers during the project's testing phase.
 - Following considerable troubleshooting and attempts at collaborative problem-solving, a fix for this bug was arrived at in the form of the `-webkit-backface-visibility: hidden` CSS declaration. More specifically, the [prefixed version](https://css-tricks.com/almanac/properties/b/backface-visibility/#prefixes) of this declaration was required for both the front and back of each flipcard in order for the functionality to work correctly on iOS - see the code block below for an illustration of the full CSS rule that was ultimately (successfully) applied to these elements:
 
 <p align="center"><img src="docs/images/screenshots/css-code-block.png" alt="Clipadvisor database initiation steps screenshot" width="40%" height="auto"></p>
