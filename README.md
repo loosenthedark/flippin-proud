@@ -6,11 +6,11 @@
 
 <p align="center"><img src="docs/images/screenshots/device-screenshots.png" alt="device screenshots mockup" width="70%" height="auto"></p>
 
-<p align="center"><a href="https://loosenthedark.github.io/flippin-proud/" style="font-weight:bold;">Live link to deployed project</a> (hosted on GitHub Pages) | <a href="http://loosenthedark.tech/flippin-proud/" style="font-weight:bold;">Alternative link</a> (hosted on loosenthedark.tech)</p>
+<p align="center" style="font-weight:bold;"><a href="https://loosenthedark.github.io/flippin-proud/">Live link to deployed project</a> (hosted on GitHub Pages) | <a href="http://loosenthedark.tech/flippin-proud/">Alternative link</a> (hosted on loosenthedark.tech)</p>
 
 ## What's It All About?
 
-Flippin' Proud is a collaborative team project initally developed and submitted as part of [Code Institute](https://codeinstitute.net/)’s [#ProudCoders June 2021 Hackathon](https://hackathon.codeinstitute.net/hackathon/8/). The application's primary function is to celebrate Pride month and its themes of diversity, visibility and community. More specifically, the programmers set out to help educate and bring people together by showcasing a selection of pioneering LGBTQ+ figures both past and present, as well as the roles they have played in furthering the cause of equality and inclusivity. The efforts and bravery of these icons has helped combat ignorance and intolerance across the globe, and laid the foundations for others to come forward and work towards a brighter future. 
+[**Flippin' Proud**](https://loosenthedark.github.io/flippin-proud/) is a collaborative team project initally developed and submitted as part of [Code Institute](https://codeinstitute.net/)’s [#ProudCoders June 2021 Hackathon](https://hackathon.codeinstitute.net/hackathon/8/). The application's primary function is to celebrate Pride month and its themes of diversity, visibility and community. More specifically, the programmers set out to help educate and bring people together by showcasing a selection of pioneering LGBTQ+ figures both past and present, as well as the roles they have played in furthering the cause of equality and inclusivity. The efforts and bravery of these icons has helped combat ignorance and intolerance across the globe, and laid the foundations for others to come forward and work towards a brighter future. 
 
 Users can interact with flipcards of the aforementioned figures by clicking on the respective image (on the front of each flipcard) to flip the card over and view background information highlighting the importance of that individual to the LGBTQ+ community.
 
@@ -95,7 +95,7 @@ Wireframes for the project can be found [here](docs/wireframes/flippin-proud-wir
 - [Autoprefixer:](https://autoprefixer.github.io/) used to parse CSS and apply all necessary vendor prefixes
 - [TinyPNG:](https://tinypng.com/) used for image compression
 - [PicResize:](https://picresize.com/) used to crop and resize images
-- [Ray.so:](https://ray.so/) used to create the code block image featured in the [**Bugs** subsection](#bugs) of the **Testing** section of this `README`
+- [Ray.so:](https://ray.so/) used to create the code block image featured in the [**Bugs** subsection](#bugs) of the **Testing** section of this Markdown file
 
 ## Testing
 
