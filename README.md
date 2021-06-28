@@ -111,10 +111,10 @@ Wireframes for the project can be found [here](docs/wireframes/flippin-proud-wir
 
 ### <a name="bugs"></a> Bugs:
 
-- The programmers encountered a specific bug relating to [iOS](https://en.wikipedia.org/wiki/IOS) devices when viewing and interacting with the `flipcards.html` page. Rather than revealing the text on the back of each card (as intended) when flipped, the cards initially simply showed a mirror image of the photo used on the card's front. [This video](docs/video/bugs/ios-flipcard-bug.mp4) gives a realistic demonstration of the bug before it was addressed by the developers during the project's testing phase.
+- The programmers encountered a specific bug relating to [iOS](https://en.wikipedia.org/wiki/IOS) devices when viewing and interacting with the `flipcards.html` page. Rather than revealing the text on the back of each card (as intended) when flipped, the cards initially simply showed a mirror image of the photo used on the card's front. [This video](https://user-images.githubusercontent.com/48750933/123703440-46b83400-d85c-11eb-87d1-936a6246ba3f.mp4) gives a realistic demonstration of the bug before it was addressed by the developers during the project's testing phase.
 - Following considerable troubleshooting and attempts at collaborative problem-solving, a fix for this bug was arrived at in the form of the `-webkit-backface-visibility: hidden` CSS declaration. More specifically, the [prefixed version](https://css-tricks.com/almanac/properties/b/backface-visibility/#prefixes) of this declaration was required for both the front and back of each flipcard in order for the functionality to work correctly on iOS - see the code block below for an illustration of the full CSS rule that was ultimately (successfully) applied to these elements:
 
-<p align="center"><img src="docs/images/screenshots/css-code-block.png" alt="Clipadvisor database initiation steps screenshot" width="40%" height="auto"></p>
+<p align="center"><img src="docs/images/screenshots/css-code-block.png" alt="Flippin' Proud CSS bug code block image" width="60%" height="auto"></p>
 
 
 ## Deployment
