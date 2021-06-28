@@ -125,17 +125,17 @@ This project has been deployed to [GitHub Pages](https://en.wikipedia.org/wiki/G
 
 1. [**Sign in** to GitHub](https://github.com/login) and locate the [relevant repository](https://github.com/loosenthedark/flippin-proud). If you do not have a GitHub account, you may create one [here](https://github.com/signup).
 2. At the top of the project repository page, select **Settings**. 
-3. On the Settings page, scroll down the menu on the left-hand side and select **Pages** near the bottom of the menu.
+3. On the Settings page, scroll down the menu flanking the left-hand side of the screen and select **Pages** near the bottom of the list of options.
 
-This will open GitHub pages....
+This will open GitHub Pages....
 
-4. Under **Source**, click the dropdown titled **None** and select the **master** branch. Click **Save**. 
-5. The page will automatically refresh and inform you that the site is now ready to be published, as well as providing the `https://` address to be used. 
-6. A [link](https://loosenthedark.github.io/flippin-proud/) to the newly-published site can be found in the GitHub **Pages** section of **Settings**.
+4. Under **Source**, click the dropdown displaying **Branch: None** and select the **master** branch. Click **Save**. 
+5. The page will then automatically refresh and inform you that the site is now ready to be published, as well as indicating the `https://` address to be used. 
+6. For reference purposes, a [link](https://loosenthedark.github.io/flippin-proud/) to this newly-published site can be found in the **Pages** section of **Settings** (described above).
 
 ### Forking the GitHub Repository:
 
-It is possible to fork this GitHub repository and make a copy of the original repository to view and/or make changes without affecting the original. This is achieved by following these steps...
+It is possible to fork this GitHub repository to view and/or make changes without affecting the original. This is achieved by following these steps...
 
 1. [Sign in to your GitHub account](https://github.com/login) and locate the [relevant repository](https://github.com/loosenthedark/flippin-proud).
 2. Click on **Fork**, located near the top right-hand corner of the repository page.
@@ -143,30 +143,28 @@ It is possible to fork this GitHub repository and make a copy of the original re
 
 ### Making a Local Clone:
 
-It is possible to copy the repository to your local machine so that you can fix merge conflicts, add or remove files and push larger commits without affecting the original repository. Cloning a repository pulls down a full copy of all the repository data that GitHub has at that point in time. See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for further information, and below for a brief summary...
+It is possible to copy the repository to your local machine so that you can fix merge conflicts, add or remove files and push larger commits without affecting the original project code. Cloning a repository pulls down a full copy of all the repository data that GitHub has at that point in time. See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for further information, and below for a brief summary...
 
 1. [Sign in to your GitHub account](https://github.com/login) and locate the [relevant repository](https://github.com/loosenthedark/flippin-proud).
-2. Click on the **Code** button next to the green **Gitpod** button. This will reveal the **Clone** option.
-3. In order to clone the repository using `HTTPS`, select **HTTPS** and copy the link. There is a copy button to the right of the URL.
+2. Click on the **Code** dropdown next to the green **Gitpod** button. This will reveal the **Clone** option.
+3. In order to clone the repository using `HTTPS`, select **HTTPS** and copy the link shown. There is a copy button to the right of the URL.
 4. Next, open **Git Bash**. See [here](https://git-scm.com/downloads) for an overview of download options, if required.
 5. Change the current working directory on your local machine to the location where you want the cloned directory to be made.
-6. Type `git clone` into your IDE terminal followed by the URL you copied in Step 3 above:
-
+6. Type `git clone` into your IDE terminal followed by the URL you copied in Step 3 above, i.e.
 ```
 https://github.com/loosenthedark/flippin-proud.git
 ```
-
 7. Press **Enter**. 
-8. Your local clone will be created.
+8. Your local clone has now been created.
 
-See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories) for more information on all of the above processes.
+_See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories) for more information on all of the above processes._
 
 ## Credits
 
 ### Code:
 
 - [Bootstrap v4.6.0](https://getbootstrap.com/docs/4.6/getting-started/introduction/) components, utilities and style classes were used extensively throughout the project, chiefly to make the site responsive in accordance with the [Bootstrap grid system](https://getbootstrap.com/docs/4.0/layout/grid/).
-- Base code for the site's animated sparkle effects was provided by [Simon Goellner](repo: https://github.com/simeydotme/jQuery-canvas-sparkles | demo: http://simeydotme.github.io/jQuery-canvas-sparkles/) and adapted by the developers.
+- Base code for the site's animated sparkle effects was provided by [Simon Goellner](https://github.com/simeydotme) ([repo](https://github.com/simeydotme/jQuery-canvas-sparkles) | [demo](http://simeydotme.github.io/jQuery-canvas-sparkles/)) and adapted by the developers.
 - Guidance on how to implement [vertical scroll snapping](https://css-tricks.com/practical-css-scroll-snapping/) between flipcards on mobile devices using pure CSS (i.e. no JS) was obtained from [this Dev Ed video tutorial](https://www.youtube.com/watch?v=htw4iKMYzEc)
 
 ### Content:
@@ -192,7 +190,7 @@ The images used to populate the cards originate from the following sources...
 
 ### Acknowledgements:
 
-The team would like to thank their mentor [Aukje van der Wal](https://github.com/byIlsa) for her amazing support, guidance and humour throughout the entire project.
+The team would like to thank their mentor [Aukje van der Wal](https://github.com/byIlsa) for all her amazing support, guidance and humour throughout the entire project.
 
 ### Notice:
 
