@@ -10,17 +10,17 @@
 
 ## What's It All About?
 
-[**Flippin' Proud**](https://loosenthedark.github.io/flippin-proud/) is a collaborative team project initally developed and submitted as part of [Code Institute](https://codeinstitute.net/)’s [#ProudCoders June 2021 Hackathon](https://hackathon.codeinstitute.net/hackathon/8/). The application's primary function is to celebrate Pride month and its themes of diversity, visibility and [community](https://dublin.ie/whats-on/listings/dublin-pride-festival/). More specifically, the programmers set out to help educate and bring people together by showcasing a selection of pioneering LGBTQ+ figures both past and present, as well as the roles they have played in furthering the causes of equality and inclusivity. The efforts and bravery of these icons has helped combat ignorance and intolerance across the globe, and laid the foundations for others to come forward and work towards a brighter future. 
+[**Flippin' Proud**](https://loosenthedark.github.io/flippin-proud/) **is a collaborative team project initally developed and submitted as part of [Code Institute](https://codeinstitute.net/)’s [#ProudCoders June 2021 Hackathon](https://www.facebook.com/Code.InstituteIRL/photos/4358897030822425/). The application's primary function is to celebrate Pride month and its themes of diversity, visibility and [community](https://dublin.ie/whats-on/listings/dublin-pride-festival/). More specifically, the programmers set out to help educate and bring people together by showcasing a selection of pioneering LGBTQ+ figures both past and present, as well as the roles they have played in furthering the causes of equality and inclusivity. The efforts and bravery of these icons have helped combat ignorance and intolerance across the globe, and laid the foundations for others to come forward and work towards a brighter future.** 
 
-Users can interact with flipcards of the aforementioned figures by clicking on the respective image (on the front of each flipcard) to flip the card over and view an information panel highlighting the importance of that individual to the LGBTQ+ community.
+Visitors to the site can interact with flipcards of the aforementioned figures by clicking on the respective image (on the front of each flipcard) to flip the card over and view an information panel highlighting the importance of that individual to the LGBTQ+ community.
 
 The project has been made possible thanks to the hard work and collaboration of the following team of developers:
 
- - **[John Doyle]**(https://github.com/Aramantos)
- - **[Christine Greaney-Kelley]**(https://github.com/christine-gk416)
- - **[Paul Harrington]**(https://github.com/loosenthedark)
- - **[Steven Kenny]**(https://github.com/SteveKennyUK)
- - **[Adrian Looney]**(https://github.com/Jammerref2015)
+ - **[John Doyle](https://github.com/Aramantos)**
+ - **[Christine Greaney-Kelley](https://github.com/christine-gk416)**
+ - **[Paul Harrington](https://github.com/loosenthedark)**
+ - **[Steven Kenny](https://github.com/SteveKennyUK)**
+ - **[Adrian Looney](https://github.com/Jammerref2015)**
 
 ## User Experience (UX)
 
@@ -65,9 +65,9 @@ Wireframes for the project can be found [here](docs/wireframes/flippin-proud-wir
 
 ### Existing Features:
 - The site consists of three pages (as well as a custom error page), each with a full-width responsive **navigation bar** fixed to the top of the viewport:
-  - A **jumbotron** greets users on the [main landing (Home) page](https://loosenthedark.github.io/flippin-proud/), with some introductory content on the theme and purpose of the site followed by a bright **call to action button** to take the user to the Flipcards page.
-  - The central [Flipcards page](https://loosenthedark.github.io/flippin-proud/flipcards) offers an interactive invitation to the user to learn about the important contributions made by various individuals to the LGBTQ+ community.
-  - A final [Contact page](https://loosenthedark.github.io/flippin-proud/contact) features a list of relevant information and contact links for each of the site's developers.
+  - A **jumbotron** greets users on the **[main landing (Home) page](https://loosenthedark.github.io/flippin-proud/)**, with some introductory content on the theme and purpose of the site followed by a bright **call-to-action button** to take the user to the Flipcards page.
+  - The central **[Flipcards page](https://loosenthedark.github.io/flippin-proud/flipcards)** offers an immersive invitation to the user to learn about the important contributions made by various individuals to the LGBTQ+ community.
+  - A final **[Contact page](https://loosenthedark.github.io/flippin-proud/contact)** features a list of relevant information and contact links for each of the site's developers.
 
 ## Technologies Used
 
@@ -81,7 +81,7 @@ Wireframes for the project can be found [here](docs/wireframes/flippin-proud-wir
 
 - **[Bootstrap v4.6.0:](https://getbootstrap.com/docs/4.6/getting-started/introduction/)** used to assist with the responsiveness and layout of the website
 - **[Hover.css v2.3.1:](https://ianlunn.github.io/Hover/)** used to add dynamic hover effects to buttons and icons
-- **[Google Fonts:](https://fonts.google.com/)** used to import the Roboto and Montserrat fonts into the `style.css` stylesheet that's used throughout the project
+- **[Google Fonts:](https://fonts.google.com/)** used to import the Roboto and Montserrat fonts into the project's stylesheets
 - **[Font Awesome v5.15.3:](https://fontawesome.com/)** used to add appropriate and visually appealing site icons
 - **[jQuery v3.5.1:](https://jquery.com/)** used to assist with manipulation of the Document Object Model (DOM) that facilitates interactivity
 - **[JSON:](https://en.wikipedia.org/wiki/JSON)** used to store and transport data
@@ -95,19 +95,19 @@ Wireframes for the project can be found [here](docs/wireframes/flippin-proud-wir
 - **[Autoprefixer:](https://autoprefixer.github.io/)** used to parse CSS and apply all necessary vendor prefixes
 - **[TinyPNG:](https://tinypng.com/)** used for image compression
 - **[PicResize:](https://picresize.com/)** used to crop and resize images
-- **[Ray.so:](https://ray.so/)** used to create the code block image featured in the [**Bugs** subsection](#bugs) of the **Testing** section of this Markdown file
+- **[Ray.so:](https://ray.so/)** used to create the code block image featured in the [**Bugs** section](#bugs) of this Markdown file
 
 ## Testing
 
 ### Validation:
 
 - [W3C](https://www.w3.org/)'s [Markup Validation Service](https://validator.w3.org/) was used to test the validity of all HTML used in this project. The code was [validated by direct input](https://validator.w3.org/#validate_by_input), and all suggested corrections were then made. As a result, all of the site's HTML files now return a _"Document checking completed. No errors or warnings to show."_ message upon being passed through this validator.
-- Likewise, the website's custom CSS stylesheets were each checked for errors using [W3C](https://www.w3.org/)'s [CSS Validation Service](https://jigsaw.w3.org/css-validator/). Once again, [validation by direct input](https://jigsaw.w3.org/css-validator/#validate_by_input) was the preferred method selected, and all necessary changes were subsequently carried out. Consequently, the stylesheets all now return a _"Congratulations! No error found."_ message upon being passed through this validator.
+- Likewise, the website's custom stylesheets were each checked for errors using [W3C](https://www.w3.org/)'s [CSS Validation Service](https://jigsaw.w3.org/css-validator/). Once again, [validation by direct input](https://jigsaw.w3.org/css-validator/#validate_by_input) was the preferred method selected, and all necessary changes were subsequently carried out. Consequently, the stylesheets all now return a _"Congratulations! No error found."_ message upon being passed through this validator.
 - In a similar manner, the site's custom JavaScript code was validated against [JSHint](https://jshint.com/)'s online JS error-detection tool.
 
 ### Responsiveness:
 
-- [Chrome DevTools](https://developer.chrome.com/docs/devtools/) and real devices of various sizes and screen widths belonging to the developers were used extensively to test responsiveness throughout the project's evolution.
+- [Chrome DevTools](https://developer.chrome.com/docs/devtools/) and real devices of various sizes and screen widths belonging to the developers were used extensively to test site responsiveness throughout the project's evolution.
 
 ### <a name="bugs"></a> Bugs:
 
@@ -137,19 +137,19 @@ This will open GitHub Pages....
 
 It is possible to fork this GitHub repository to view and/or make changes without affecting the original. This is achieved by following these steps...
 
-1. [Sign in to your GitHub account](https://github.com/login) and locate the [relevant repository](https://github.com/loosenthedark/flippin-proud).
+1. [**Sign in** to your GitHub account](https://github.com/login) and locate the [relevant repository](https://github.com/loosenthedark/flippin-proud).
 2. Click on **Fork**, located near the top right-hand corner of the repository page.
 3. You will now have a copy of this project's repository in your own GitHub account.
 
 ### Making a Local Clone:
 
-It is possible to copy the repository to your local machine so that you can fix merge conflicts, add or remove files and push larger commits without affecting the original project code. Cloning a repository pulls down a full copy of all the repository data that GitHub has at that point in time. See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for further information, and below for a brief summary...
+It is possible to copy the repository to your local machine so that you can fix merge conflicts, add or remove files and push larger commits without affecting the original project code. Cloning a repository pulls down a full copy of all the repo data that GitHub has at that point in time. See the [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories/cloning-a-repository) for further information, and below for a brief summary...
 
-1. [Sign in to your GitHub account](https://github.com/login) and locate the [relevant repository](https://github.com/loosenthedark/flippin-proud).
+1. [**Sign in** to your GitHub account](https://github.com/login) and locate the [relevant repository](https://github.com/loosenthedark/flippin-proud).
 2. Click on the **Code** dropdown next to the green **Gitpod** button. This will reveal the **Clone** option.
-3. In order to clone the repository using `HTTPS`, select **HTTPS** and copy the link shown. There is a copy button to the right of the URL.
-4. Next, open **Git Bash**. See [here](https://git-scm.com/downloads) for an overview of download options, if required.
-5. Change the current working directory on your local machine to the location where you want the cloned directory to be made.
+3. In order to clone the repository using `HTTPS`, select **HTTPS** and copy the link shown (there is a copy button to the right of the URL).
+4. Next, open **Git Bash** (see [here](https://git-scm.com/downloads) for an overview of download options, if required).
+5. Change the current working directory on your local machine to the location where you want the cloning to be made.
 6. Type `git clone` into your IDE terminal followed by the URL you copied in Step 3 above, i.e.
 ```
 https://github.com/loosenthedark/flippin-proud.git
@@ -157,7 +157,7 @@ https://github.com/loosenthedark/flippin-proud.git
 7. Press **Enter**. 
 8. Your local clone has now been created.
 
-_See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories) for more information on all of the above processes._
+_See the [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiving-repositories) for more information on all of the above processes._
 
 ## Credits
 
@@ -169,7 +169,7 @@ _See [GitHub Docs](https://docs.github.com/en/github/creating-cloning-and-archiv
 
 ### Content:
 
-Card content courtesy of [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) and [Bi.org](https://bi.org/en)
+Card text content courtesy of [Wikipedia](https://en.wikipedia.org/wiki/Main_Page) and [Bi.org](https://bi.org/en)
 
 ### Media:
 
