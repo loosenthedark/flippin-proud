@@ -790,6 +790,12 @@
     }
 }
 
+@media (min-width: 576px) {
+    .rolling-pride {
+        max-width: unset;
+    }
+}
+
 @media (min-width: 768px) {
     .rolling-pride {
         top: unset;

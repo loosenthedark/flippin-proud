@@ -428,6 +428,13 @@ section {
   padding-bottom: 1.5rem;
 }
 
+@media (min-width: 576px) {
+  .container-flipcards,
+  .contact-container {
+      max-width: unset;
+  }
+}
+
 @media (min-width: 768px) {
   body {
     position: relative;
