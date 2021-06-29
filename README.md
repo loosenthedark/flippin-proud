@@ -89,7 +89,7 @@ Wireframes for the project can be found [here](docs/wireframes/flippin-proud-wir
 - **[GitHub:](https://github.com/)** used to compile and remotely store the project's codebase following successive local commits and pull requests initiated from the command line
 - **[Balsamiq:](https://balsamiq.com/)** used to generate [wireframes](docs/wireframes/flippin-proud-wireframes.pdf) during the project's design phase
 - **[Adobe Photoshop:](https://www.adobe.com/uk/products/photoshop.html)** used to create the website's main [`.navbar-brand` logo](static/images/logo-final.png)
-- **[favicon.io (favicon generator):](https://favicon.io/favicon-converter/)** used to create a favicon boasting full cross-browser compatibility
+- **[favicon.io (favicon generator):](https://favicon.io/favicon-converter/)** used to create a [favicon](https://user-images.githubusercontent.com/48750933/123767889-be6b7a80-d8bf-11eb-956c-4ec07621fab9.png) boasting full cross-browser compatibility
 - **[WebAIM (contrast checker):](https://webaim.org/resources/contrastchecker/)** used to ensure site foreground and background colour contrasts meet [WCAG 2 accessibility requirements](https://webaim.org/articles/contrast/)
 - **[Web Formatter:](https://webformatter.com)** used to assist in optimising code readability
 - **[Autoprefixer:](https://autoprefixer.github.io/)** used to parse CSS and apply all necessary vendor prefixes
