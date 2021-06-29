@@ -729,6 +729,10 @@ section {
     }
   }
 
+  .flip-card-row {
+    justify-content: center;
+  }
+
 }
 
 @media (min-width: 992px) {
